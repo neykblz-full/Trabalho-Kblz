@@ -1,6 +1,6 @@
 # Trabalho Kblz
 
-Sistema de console para gerenciamento de consultas, desenvolvido como Trabalho Integrador das disciplinas de PDS e PABD.
+Sistema de console em Java para gerenciamento de consultas, desenvolvido como Trabalho Integrador das disciplinas de PDS e PABD.
 
 ## Equipe
 
@@ -21,6 +21,14 @@ Criar uma Agenda de Consultas em modo texto para cadastrar pacientes, profission
 ## Tema
 
 Agenda de Consultas.
+
+## Tecnologias
+
+- Java
+- Eclipse IDE
+- MySQL
+- MySQL Workbench
+- Git e GitHub
 
 ## Entidades Principais
 

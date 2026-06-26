@@ -1,6 +1,6 @@
 # Banco de Dados
 
-O sistema utiliza SQLite, um banco relacional simples e adequado para aplicacoes de console.
+O sistema utiliza MySQL, com criacao e manutencao do banco pelo MySQL Workbench.
 
 ## Entidades
 
@@ -15,4 +15,4 @@ O sistema utiliza SQLite, um banco relacional simples e adequado para aplicacoes
 
 ## Script
 
-O script de criacao do banco esta em `sql/schema.sql`.
+O script de criacao do banco esta em `sql/schema.sql` e deve ser executado no MySQL Workbench.
