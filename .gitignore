@@ -2,6 +2,6 @@ __pycache__/
 *.pyc
 *.sqlite3
 *.db
+bin/
 .venv/
 venv/
-
