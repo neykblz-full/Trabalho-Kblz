@@ -35,3 +35,8 @@ Agenda de Consultas.
 - Paciente
 - Profissional
 - Consulta
+
+## CRUDs Implementados
+
+- Pacientes
+- Profissionais
