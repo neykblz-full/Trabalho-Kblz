@@ -21,3 +21,9 @@ Criar uma Agenda de Consultas em modo texto para cadastrar pacientes, profission
 ## Tema
 
 Agenda de Consultas.
+
+## Entidades Principais
+
+- Paciente
+- Profissional
+- Consulta
