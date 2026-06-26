@@ -40,3 +40,4 @@ Agenda de Consultas.
 
 - Pacientes
 - Profissionais
+- Consultas
