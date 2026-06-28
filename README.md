@@ -46,6 +46,7 @@ O sistema utiliza o banco `trabalho_kblz`, criado automaticamente pelo script SQ
 
 ## Documentação
 
+- [Quadro Kanban](https://github.com/users/neykblz-full/projects/5)
 - [Banco de dados](docs/banco-de-dados.md)
 - [Instruções de execução](docs/execucao.md)
 - [Planejamento ágil](docs/planejamento-agil.md)

@@ -2,7 +2,7 @@
 
 ## Organização do trabalho
 
-O desenvolvimento foi dividido em tarefas registradas como issues no GitHub e acompanhado pelo fluxo Kanban:
+O desenvolvimento foi dividido em tarefas registradas como issues no GitHub e acompanhado pelo [quadro Kanban do projeto](https://github.com/users/neykblz-full/projects/5):
 
 - Backlog
 - A Fazer
