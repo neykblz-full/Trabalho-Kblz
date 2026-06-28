@@ -1,15 +1,8 @@
-# Capturas de Tela
+# Interface do Sistema
 
-As capturas podem ser adicionadas na pasta `imagens/` depois que o grupo executar o sistema no Eclipse.
+## Menu principal
 
-Sugestoes de capturas:
-
-- Menu principal.
-- Cadastro de paciente.
-- Listagem de profissionais.
-- Cadastro de consulta.
-
-Exemplo de tela esperada:
+Ao iniciar a aplicação, o sistema apresenta o menu de acesso aos três cadastros:
 
 ```text
 ==============================================
@@ -19,5 +12,18 @@ Exemplo de tela esperada:
 2 - Gerenciar profissionais
 3 - Gerenciar consultas
 0 - Sair
+Escolha uma opcao:
 ```
 
+## Operações disponíveis
+
+Os menus de pacientes, profissionais e consultas seguem a mesma organização:
+
+```text
+1 - Cadastrar
+2 - Listar
+3 - Atualizar
+4 - Excluir
+```
+
+Após cada operação, a aplicação informa o resultado no próprio console. Nas listagens, os registros são apresentados com seus identificadores e dados principais.

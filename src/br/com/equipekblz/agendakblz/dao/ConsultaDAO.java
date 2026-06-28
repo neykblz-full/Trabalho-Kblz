@@ -14,10 +14,9 @@ public class ConsultaDAO {
     private final ConexaoMySQL conexaoMySQL = new ConexaoMySQL();
 
     public void cadastrar(Consulta consulta) throws SQLException {
-        String sql = """
-                INSERT INTO consultas (paciente_id, profissional_id, data_consulta, horario, observacao, status)
-                VALUES (?, ?, ?, ?, ?, ?)
-                """;
+        String sql = "INSERT INTO consultas "
+                + "(paciente_id, profissional_id, data_consulta, horario, observacao, status) "
+                + "VALUES (?, ?, ?, ?, ?, ?)";
 
         try (Connection conexao = conexaoMySQL.conectar();
              PreparedStatement comando = conexao.prepareStatement(sql)) {
@@ -32,11 +31,8 @@ public class ConsultaDAO {
     }
 
     public List<Consulta> listar() throws SQLException {
-        String sql = """
-                SELECT id, paciente_id, profissional_id, data_consulta, horario, observacao, status
-                FROM consultas
-                ORDER BY data_consulta, horario
-                """;
+        String sql = "SELECT id, paciente_id, profissional_id, data_consulta, horario, observacao, status "
+                + "FROM consultas ORDER BY data_consulta, horario";
         List<Consulta> consultas = new ArrayList<>();
 
         try (Connection conexao = conexaoMySQL.conectar();
@@ -59,11 +55,8 @@ public class ConsultaDAO {
     }
 
     public void atualizar(Consulta consulta) throws SQLException {
-        String sql = """
-                UPDATE consultas
-                SET paciente_id = ?, profissional_id = ?, data_consulta = ?, horario = ?, observacao = ?, status = ?
-                WHERE id = ?
-                """;
+        String sql = "UPDATE consultas SET paciente_id = ?, profissional_id = ?, "
+                + "data_consulta = ?, horario = ?, observacao = ?, status = ? WHERE id = ?";
 
         try (Connection conexao = conexaoMySQL.conectar();
              PreparedStatement comando = conexao.prepareStatement(sql)) {

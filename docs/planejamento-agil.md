@@ -1,31 +1,33 @@
-# Planejamento Agil
+# Planejamento Ágil
 
-## Quadro Kanban
+## Organização do trabalho
+
+O desenvolvimento foi dividido em tarefas registradas como issues no GitHub e acompanhado pelo fluxo Kanban:
 
 - Backlog
 - A Fazer
 - Em Desenvolvimento
 - Em Teste
-- Concluido
+- Concluído
 
-## Historias de Usuario
+## Histórias de usuário
 
 1. Como atendente, quero cadastrar pacientes para manter seus dados organizados.
-2. Como atendente, quero cadastrar profissionais para relacionar consultas aos responsaveis.
-3. Como atendente, quero marcar consultas para organizar os atendimentos da clinica.
-4. Como usuario, quero listar, editar e excluir registros para corrigir informacoes quando necessario.
+2. Como atendente, quero cadastrar profissionais para relacionar as consultas aos responsáveis.
+3. Como atendente, quero marcar consultas para organizar os atendimentos da clínica.
+4. Como usuário, quero listar, editar e excluir registros para corrigir informações quando necessário.
 
-## Issues Sugeridas
+## Tarefas do projeto
 
-- Issue 1: Criar banco de dados MySQL.
-- Issue 2: Implementar CRUD de pacientes.
-- Issue 3: Implementar CRUD de profissionais.
-- Issue 4: Implementar CRUD de consultas.
+| Issue | Entrega |
+| --- | --- |
+| [#1](https://github.com/neykblz-full/Trabalho-Kblz/issues/1) | Banco de dados MySQL e relacionamentos |
+| [#2](https://github.com/neykblz-full/Trabalho-Kblz/issues/2) | CRUD de pacientes |
+| [#3](https://github.com/neykblz-full/Trabalho-Kblz/issues/3) | CRUD de profissionais |
+| [#4](https://github.com/neykblz-full/Trabalho-Kblz/issues/4) | CRUD de consultas |
 
-## Participacao da Equipe
+## Participação da equipe
 
-- Ney Eduardo: organizacao do repositorio, desenvolvimento principal, commits e envio ao GitHub.
-- Thierry Almeida: acompanhamento do tema, revisao do sistema e apoio na apresentacao.
-- Josenildo Araujo: acompanhamento dos requisitos, revisao do banco e apoio na apresentacao.
-
-Observacao: os commits podem ser concentrados em um integrante quando autorizado pelo professor.
+- Ney Eduardo: organização do repositório, desenvolvimento da aplicação e integração com o banco de dados.
+- Thierry Almeida: revisão do sistema e apoio na preparação da apresentação.
+- Josenildo Araujo: revisão dos requisitos, do banco de dados e apoio na preparação da apresentação.

@@ -1,50 +1,53 @@
-# Trabalho Kblz
+# Agenda de Consultas Kblz
 
-Sistema de console em Java para gerenciamento de consultas, desenvolvido como Trabalho Integrador das disciplinas de PDS e PABD.
+Sistema de console desenvolvido em Java para organizar pacientes, profissionais e consultas. O projeto integra os conteúdos das disciplinas de Projeto de Desenvolvimento de Software (PDS) e Programação com Acesso a Banco de Dados (PABD).
 
 ## Equipe
 
-- Equipe: Equipe Kblz
-- Integrantes:
-  - Thierry Almeida
-  - Josenildo Araujo
-  - Ney Eduardo
+- Ney Eduardo
+- Thierry Almeida
+- Josenildo Araujo
 
-## Problema
+## Funcionalidades
 
-Pequenas clinicas e profissionais autonomos podem perder informacoes importantes quando fazem o controle de consultas em papel, mensagens soltas ou planilhas sem padrao. Isso dificulta encontrar pacientes, confirmar profissionais disponiveis e acompanhar consultas marcadas.
-
-## Objetivo do Sistema
-
-Criar uma Agenda de Consultas em modo texto para cadastrar pacientes, profissionais e consultas, usando orientacao a objetos, banco de dados relacional, operacoes CRUD e organizacao agil com Scrum/Kanban.
-
-## Tema
-
-Agenda de Consultas.
+- Cadastro, consulta, atualização e exclusão de pacientes.
+- Cadastro, consulta, atualização e exclusão de profissionais.
+- Agendamento, consulta, atualização e exclusão de consultas.
+- Associação de cada consulta a um paciente e a um profissional.
+- Persistência dos dados em banco MySQL.
 
 ## Tecnologias
 
-- Java
+- Java e orientação a objetos
+- JDBC
+- MySQL e MySQL Workbench
 - Eclipse IDE
-- MySQL
-- MySQL Workbench
 - Git e GitHub
+- Scrum e Kanban
 
-## Como Executar
+## Estrutura do projeto
 
-1. Abra o MySQL Workbench.
-2. Execute o script `sql/schema.sql`.
-3. Abra o projeto no Eclipse IDE.
-4. Adicione o MySQL Connector/J ao Build Path se necessario.
-5. Ajuste usuario e senha em `ConexaoMySQL.java`.
-6. Execute a classe `Main`.
+```text
+src/       Código-fonte Java
+sql/       Script de criação do banco de dados
+docs/      Documentação, planejamento e diagramas
+imagens/   Registros visuais da aplicação
+```
 
-## Diagramas e Documentacao
+## Como executar
 
-- Banco de dados: `docs/banco-de-dados.md`
-- Execucao: `docs/execucao.md`
-- Planejamento agil: `docs/planejamento-agil.md`
-- Diagramas: `docs/diagramas.md`
-- Capturas: `docs/capturas-de-tela.md`
+1. No MySQL Workbench, execute o arquivo [`sql/schema.sql`](sql/schema.sql).
+2. Importe este repositório no Eclipse como um projeto existente.
+3. Adicione o MySQL Connector/J ao Build Path do projeto.
+4. Confira o usuário e a senha do MySQL em `ConexaoMySQL.java`.
+5. Execute a classe `Main.java`.
 
+O sistema utiliza o banco `trabalho_kblz`, criado automaticamente pelo script SQL.
 
+## Documentação
+
+- [Banco de dados](docs/banco-de-dados.md)
+- [Instruções de execução](docs/execucao.md)
+- [Planejamento ágil](docs/planejamento-agil.md)
+- [Diagramas](docs/diagramas.md)
+- [Interface do sistema](docs/capturas-de-tela.md)
