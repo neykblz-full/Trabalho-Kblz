@@ -47,24 +47,4 @@ Agenda de Consultas.
 - Diagramas: `docs/diagramas.md`
 - Capturas: `docs/capturas-de-tela.md`
 
-## GitHub
 
-O professor `michel-ifrn` deve ser adicionado como colaborador.
-
-Integrantes a adicionar no repositorio e no projeto:
-
-- Thierry Almeida
-- Josenildo Araujo
-- Ney Eduardo
-
-## Entidades Principais
-
-- Paciente
-- Profissional
-- Consulta
-
-## CRUDs Implementados
-
-- Pacientes
-- Profissionais
-- Consultas
